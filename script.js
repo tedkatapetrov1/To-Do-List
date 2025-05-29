@@ -21,6 +21,6 @@ addBtn.addEventListener('click', () => {
     li.appendChild(span);
     shoppingList.appendChild(li);
 
-    itemInput.value = ''; // изчистване на полето
+    itemInput.value = '';
   }
 });
