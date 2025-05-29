@@ -10,3 +10,9 @@ It allows users to add items to a list, mark them as purchased, and remove them 
 - Remove items from the list
 - Minimal and clean user interface
 - Fully client-side and easy to integrate
+
+## 🧠 Future Improvements
+
+- Save list using `localStorage`
+- Categorize items (e.g., fruits, drinks, cleaning)
+- Add quantity or price per item
