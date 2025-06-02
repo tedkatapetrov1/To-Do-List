@@ -7,7 +7,7 @@ It allows users to add items to a list, mark them as purchased, and remove them 
 
 - Add new shopping items
 - Mark items as "bought" with a checkbox
-- Remove items from the list
+- Categorize items (e.g., fruits, drinks, cleaning)
 - Minimal and clean user interface
 - Fully client-side and easy to integrate
 
@@ -15,4 +15,5 @@ It allows users to add items to a list, mark them as purchased, and remove them 
 
 - Save list using `localStorage`
 - Categorize items (e.g., fruits, drinks, cleaning) - Done in version 2.0 ✅
+- Remove items from the list
 - Add quantity or price per item
