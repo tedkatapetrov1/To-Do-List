@@ -14,5 +14,5 @@ It allows users to add items to a list, mark them as purchased, and remove them 
 ## 🧠 Future Improvements
 
 - Save list using `localStorage`
-- Categorize items (e.g., fruits, drinks, cleaning) - Done ✅
+- Categorize items (e.g., fruits, drinks, cleaning) - Done in version 2.0 ✅
 - Add quantity or price per item
