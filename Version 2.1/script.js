@@ -14,12 +14,20 @@ addBtn.addEventListener('click', () => {
     const span = document.createElement('span');
     span.textContent = itemText;
 
+    const deleteBtn = document.createElement('button');
+    deleteBtn.textContent = '🗑️';
+
+    deleteBtn.addEventListener('click', () => {
+      li.remove();
+    });
+
     checkbox.addEventListener('change', () => {
       span.style.textDecoration = checkbox.checked ? 'line-through' : 'none';
     });
 
     li.appendChild(checkbox);
     li.appendChild(span);
+    li.appendChild(deleteBtn);
     
     const categoryList = document.getElementById(category);
     categoryList.appendChild(li)
