@@ -86,9 +86,13 @@ function saveList() {
 const clearBtn = document.getElementById('clearBtn');
 
 clearBtn.addEventListener('click', () => {
+  const confirmClear = confirm('Are you sure you want to clear the entire shopping list?');
+
+ if (confirmClear){
   document.querySelectorAll('ul').forEach(ul => {
     ul.innerHTML = '';
   });
 
-  localStorage.removeItem('shoppingList');
+  localStorage.removeItem('shoppingList')
+ }
 });
