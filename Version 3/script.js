@@ -82,3 +82,13 @@ function saveList() {
 
   localStorage.setItem('shoppingList', JSON.stringify(data));
 }
+
+const clearBtn = document.getElementById('clearBtn');
+
+clearBtn.addEventListener('click', () => {
+  document.querySelectorAll('ul').forEach(ul => {
+    ul.innerHTML = '';
+  });
+
+  localStorage.removeItem('shoppingList');
+});
